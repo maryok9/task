@@ -46,7 +46,7 @@ function convertFahrToCelsius(val) {
                 //var content = JSON.strignify(num);
                 return `invalid parameter: "${n}"`
             }
-            else if (isNaN(num)) {
+            else if (!isNaN(num)) {
                 var answer = able(num);
                 return answer;
             }    
